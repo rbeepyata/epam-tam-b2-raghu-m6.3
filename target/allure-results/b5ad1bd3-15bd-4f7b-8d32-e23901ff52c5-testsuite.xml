@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1517750017650" stop="1517750156902" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>ebay</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1517750018005" stop="1517750138311" status="passed">
+            <name>Search and Add multiple Items to Cart</name>
+            <title>Search and Add multiple Items to Cart</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1517750018033" stop="1517750028844" status="passed">
+                    <name>Given User launch the website "https://www.ebay.com/"</name>
+                    <title>Given User launch the website "https://www.ebay.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517750028850" stop="1517750121390" status="passed">
+                    <name>Given User search for an item "IPhone 6"</name>
+                    <title>Given User search for an item "IPhone 6"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517750121391" stop="1517750129384" status="passed">
+                    <name>When User selects the First Item listed</name>
+                    <title>When User selects the First Item listed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517750129387" stop="1517750138191" status="passed">
+                    <name>Then User adds the item with "Silver" color and "16GB" RAM to cart</name>
+                    <title>Then User adds the item with "Silver" color and "16GB" RAM to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517750138194" stop="1517750138307" status="passed">
+                    <name>And Verify Item is succesfully added to cart</name>
+                    <title>And Verify Item is succesfully added to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Search and Add multiple Items to Cart"/>
+                <label name="feature" value="ebay"/>
+                <label name="host" value="EPINHYDW0220"/>
+                <label name="thread" value="28940@EPINHYDW0220.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1517750138799" stop="1517750156895" status="passed">
+            <name>Search and Add multiple Items to Cart</name>
+            <title>Search and Add multiple Items to Cart</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1517750138804" stop="1517750142504" status="passed">
+                    <name>Given User launch the website "https://www.ebay.com/"</name>
+                    <title>Given User launch the website "https://www.ebay.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517750142511" stop="1517750146712" status="passed">
+                    <name>Given User search for an item "Iphone 7"</name>
+                    <title>Given User search for an item "Iphone 7"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517750146713" stop="1517750152241" status="passed">
+                    <name>When User selects the First Item listed</name>
+                    <title>When User selects the First Item listed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517750152243" stop="1517750156712" status="passed">
+                    <name>Then User adds the item with "Black" color and "128GB" RAM to cart</name>
+                    <title>Then User adds the item with "Black" color and "128GB" RAM to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1517750156718" stop="1517750156895" status="passed">
+                    <name>And Verify Item is succesfully added to cart</name>
+                    <title>And Verify Item is succesfully added to cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Search and Add multiple Items to Cart"/>
+                <label name="feature" value="ebay"/>
+                <label name="host" value="EPINHYDW0220"/>
+                <label name="thread" value="28940@EPINHYDW0220.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="ebay"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

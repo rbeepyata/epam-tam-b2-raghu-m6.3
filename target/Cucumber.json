@@ -1,0 +1,355 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6529467336,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the website \"https://www.ebay.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.ebay.com/",
+                  "offset": 25
+                }
+              ],
+              "location": "AddToCartStepDef.launchApplication(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Search and Add to Cart",
+        "description": "",
+        "id": "ebay-add-to-cart.;search-and-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19041750989,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User search for an item \"Nokia 3310 red\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nokia 3310 red",
+                  "offset": 25
+                }
+              ],
+              "location": "AddToCartStepDef.iSetSearchRequest(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8758222682,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects the First Item listed",
+            "match": {
+              "location": "AddToCartStepDef.selectFirstListedItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3522948987,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User adds the item to cart",
+            "match": {
+              "location": "AddToCartStepDef.addFirstListedItem()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 107216951,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify Item is succesfully added to cart",
+            "match": {
+              "location": "AddToCartStepDef.VerifyItemIsAdded()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Smoke"
+          },
+          {
+            "line": 7,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2552080967,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the website \"https://www.ebay.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.ebay.com/",
+                  "offset": 25
+                }
+              ],
+              "location": "AddToCartStepDef.launchApplication(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Search and Add multiple Items to Cart",
+        "description": "",
+        "id": "ebay-add-to-cart.;search-and-add-multiple-items-to-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4233814910,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User search for an item \"IPhone 6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IPhone 6",
+                  "offset": 25
+                }
+              ],
+              "location": "AddToCartStepDef.iSetSearchRequest(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4683362748,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User selects the First Item listed",
+            "match": {
+              "location": "AddToCartStepDef.selectFirstListedItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4831715311,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User adds the item with \"Silver\" color and \"16GB\" RAM to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Silver",
+                  "offset": 25
+                },
+                {
+                  "val": "16GB",
+                  "offset": 44
+                }
+              ],
+              "location": "AddToCartStepDef.addFirstListedItem(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 150633338,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify Item is succesfully added to cart",
+            "match": {
+              "location": "AddToCartStepDef.VerifyItemIsAdded()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ebay"
+          },
+          {
+            "line": 14,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2399495293,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the website \"https://www.ebay.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.ebay.com/",
+                  "offset": 25
+                }
+              ],
+              "location": "AddToCartStepDef.launchApplication(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Search and Add multiple Items to Cart",
+        "description": "",
+        "id": "ebay-add-to-cart.;search-and-add-multiple-items-to-cart;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4924129760,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User search for an item \"Iphone 7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Iphone 7",
+                  "offset": 25
+                }
+              ],
+              "location": "AddToCartStepDef.iSetSearchRequest(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6457181809,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User selects the First Item listed",
+            "match": {
+              "location": "AddToCartStepDef.selectFirstListedItem()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4166115029,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User adds the item with \"Black\" color and \"128GB\" RAM to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Black",
+                  "offset": 25
+                },
+                {
+                  "val": "128GB",
+                  "offset": 43
+                }
+              ],
+              "location": "AddToCartStepDef.addFirstListedItem(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 178780448,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify Item is succesfully added to cart",
+            "match": {
+              "location": "AddToCartStepDef.VerifyItemIsAdded()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@ebay"
+          },
+          {
+            "line": 14,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "ebay Add to Cart.",
+    "description": "",
+    "id": "ebay-add-to-cart.",
+    "keyword": "Feature",
+    "uri": "features/ebay/AddToCart.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ebay"
+      }
+    ]
+  }
+]
